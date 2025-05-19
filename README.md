@@ -54,6 +54,7 @@ nodemon raft.js
 以下是本系統平台所提供的RESTful API，您可以利用這些端點對任意節點進行資料提交與區塊鏈查詢。接下來將詳細列出對應的HTTP方法、路徑及參數說明，具體內容如下：
 * `POST` /appendBlockToNode：用戶向節點發送要創建區塊的訊息(請求內容有data)
 * `GET` /blocks：獲取整個區塊鏈
+
 1. 新增資料
 <br>
   <div align="center">
