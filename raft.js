@@ -307,5 +307,5 @@ class Node {
 }
 
 // 啟動節點
-const node = new Node(2, 7092, { 1: "ndmi:3095", 2: "client:7092" });
+const node = new Node(2, 7092, { 1: "raft-1:3095", 2: "raft-2:7092", 3: "raft-3:7093" });
 node.start();
